@@ -58,3 +58,78 @@ Kodluyoruz / Patika.dev Frontend Web Development eğitimleri için açılan repo
     O(nlogn)
 
 </details>
+
+---
+
+3 - Binary Search Tree Projesi
+
+<details>
+    [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+    root 6 olarak kabul edildi.
+
+    Aşamalar
+        1.  7 > 6   ->    6
+                            \
+                             7
+        2.  5 < 6   ->    6
+                        /   \
+                       5     7
+        3.  1 < 6
+            1 < 5   ->    6
+                        /   \
+                       5     7
+                      /
+                     1
+        4.  8 > 6
+            8 > 7   ->    6
+                        /   \
+                       5     7
+                      /       \
+                     1         8
+        5.  3 < 6
+            3 < 5
+            3 > 1   ->    6
+                        /   \
+                       5     7
+                      / \     \
+                     1   3     8
+        6.  0 < 6
+            0 < 5
+            0 < 1   ->    6
+                        /   \
+                       5     7
+                      / \     \
+                     1   3     8
+                    /
+                   0
+        7.  9 > 6
+            9 > 7
+            9 > 8   ->    6
+                        /   \
+                       5     7
+                      / \     \
+                     1   3     8
+                    /           \
+                   0             9
+        8.  4 < 6
+            4 < 5
+            4 > 3   ->    6
+                        /   \
+                       5     7
+                      / \     \
+                     1   3     8
+                    /     \     \
+                   0       4     9
+        9.  2 < 6
+            2 < 5
+            2 > 1
+            2 < 3   ->    6
+                        /   \
+                       5     7
+                      / \     \
+                     1   3     8
+                    /   / \     \
+                   0   2   4     9
+
+</details>
