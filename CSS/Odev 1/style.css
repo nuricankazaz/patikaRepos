@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+body {
+  font-family: "PT Mono", monospace;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-position: inside;
+}
+.anasayfa ul li {
+  display: inline;
+}
+p {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h1 {
+  color: #4b3869;
+}
+h2 {
+  color: #664e88;
+}
+h3 {
+  color: #63b4b8;
+}

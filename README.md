@@ -64,6 +64,7 @@ Kodluyoruz / Patika.dev Frontend Web Development eğitimleri için açılan repo
 3 - Binary Search Tree Projesi
 
 <details>
+
     [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
     root 6 olarak kabul edildi.
