@@ -1,0 +1,68 @@
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* Image and Navbar CSS */
+h1 {
+  font-size: 16px;
+  font-weight: lighter;
+}
+img {
+  margin-top: 8px;
+}
+.container {
+  margin-left: 105px;
+  margin-right: 105px;
+}
+.navbar {
+  background-color: #eeeeee;
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+.navbar input {
+  width: 310px;
+}
+.navbar button {
+  width: 110px;
+}
+/* content CSS */
+section {
+  display: flex;
+}
+.first {
+  width: 37%;
+  float: left;
+  background-color: #7ee5da;
+  margin-right: 2px;
+  padding: 12px;
+}
+.second {
+  width: 20%;
+  float: left;
+  background-color: #70ccc2;
+  margin-right: 2px;
+  font-size: 13px;
+  padding: 4px;
+}
+.third {
+  width: 43.6%;
+  float: left;
+  background-color: #62b3aa;
+  font-size: 13px;
+  padding: 2px;
+}
+.inputMail {
+  text-align: left;
+}
+.third button {
+  width: 75px;
+  margin-right: 13px;
+}
+/* footer CSS */
+.footer {
+  font-size: 13px;
+  margin-top: 15px;
+}
