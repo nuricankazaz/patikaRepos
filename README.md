@@ -1,6 +1,5 @@
-# PatikaFrontend
-
-Kodluyoruz / Patika.dev Frontend Web Development eğitimleri için açılan repository.
+# PatikaRepos
+Kodluyoruz / Patika.dev üzerinden alınan eğitimler için açılan repository.
 
 1 - Insertion Sort Projesi
 
