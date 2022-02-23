@@ -1,4 +1,5 @@
 # PatikaRepos
+
 Kodluyoruz / Patika.dev üzerinden alınan eğitimler için açılan repository.
 
 1 - Insertion Sort Projesi
@@ -133,3 +134,51 @@ Kodluyoruz / Patika.dev üzerinden alınan eğitimler için açılan repository.
                    0   2   4     9
 
 </details>
+
+---
+
+# Solutions for Python Basic
+
+1 - Solution for Question 1
+
+<details>
+
+```python
+given_list = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+flat_list = []
+def flatten(given_list):
+for i in given_list:
+    if type(i) == list:
+        flatten(i)
+    else:
+        flat_list.append(i)
+
+flatten(given_list)
+
+print(flat_list)
+```
+
+</details>
+
+---
+
+2 - Solution for Question 2
+
+<details>
+
+```python
+given_list = [[1, 2], [3, 4], [5, 6, 7]]
+reversed_list = []
+def reverser(given_list):
+for i in given_list:
+    if type(i) == list:
+        reversed_list.append(list(reversed(i)))
+
+reverser(given_list)
+
+print(list(reversed(reversed_list)))
+```
+
+</details>
+
+---
